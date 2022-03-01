@@ -1,5 +1,5 @@
    
-@media screen and (min-width:501px){
+@media screen and (min-width:481px){
  *{
         padding: 0;
         margin: 0;
@@ -277,7 +277,7 @@ background-image: url(images/desktop/image-transform.jpg);
 }
 }
 
-@media  screen and (max-width:500px) {
+@media  screen and (max-width:480px) {
     
     *{
         padding: 0;
