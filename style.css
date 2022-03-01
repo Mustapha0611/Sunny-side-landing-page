@@ -1,5 +1,5 @@
    
-@media screen and (min-width:481px){
+@media screen and (min-width:501px){
  *{
         padding: 0;
         margin: 0;
@@ -8,7 +8,7 @@
     width: 100%;
 }
 .head{
-    height: 60vh;
+    height: 100vh;
     background-image:url(images/desktop/image-header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -276,7 +276,7 @@ background-image: url(images/desktop/image-transform.jpg);
 }
 }
 
-@media  screen and (max-width:480px) {
+@media  screen and (max-width:500px) {
     
     *{
         padding: 0;
@@ -286,7 +286,7 @@ background-image: url(images/desktop/image-transform.jpg);
     width: 100%;
 }
 .head{
-    height: 100vh ;
+    height: 60vh ;
     background-image:url(images/mobile/image-header.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -585,6 +585,6 @@ order: 0;
 .Social > li > :hover{
     color: whitesmoke;
     cursor: pointer;
-}
+   }
 }
 
