@@ -286,7 +286,7 @@ background-image: url(images/desktop/image-transform.jpg);
     width: 100%;
 }
 .head{
-    height: 60vh ;
+    height: 80vh ;
     background-image:url(images/mobile/image-header.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -361,9 +361,9 @@ background-image: url(images/desktop/image-transform.jpg);
 .text{
     display: block;
     text-align: center;
-    margin: 60px auto;
+    margin: 40px auto;
     color: hsl(0, 0%, 100%);
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .arrow-down{
@@ -384,8 +384,8 @@ background-image: url(images/desktop/image-transform.jpg);
 
 
 .content-header{
-    font-size: 3.1rem;
-    margin-top: 130px;
+    font-size: 2.5rem;
+    margin-top: 100px;
     text-align: center;
     width: 100%;
 }
