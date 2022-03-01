@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+</head>
+<body>
+  <div class="container">
+    <section class="head">
+      <div class="header">
+        <div class="logo">
+          <img src="/images/logo.svg">
+        </div>
+        <a id="" onclick="burgerNav()"><img src="images/icon-hamburger.svg"></a>
+        <div class="menu" id="menu">
+          <ul class="links">
+            <li>About</li>
+            <li>Services</li>
+            <li>Projects</li>
+            <li class="active">Contact</li>
+          </ul>
+        </div>
+      
+      </div>
+      <div class="text">
+        <h1>WE ARE CREATIVE</h1>
+      </div>
+      <div class="arrow-down">
+        <img src="images/icon-arrow-down.svg" alt="">
+      </div>
+    </section>
+    <section class="mid-area">
+      <div class="content one">
+        <h1 class="content-header">
+          Transform your brand
+        </h1>
+        <p class="para-body">
+          We are a full-service creative agency specializing in helping brands grow fast. 
+          Engage your clients through compelling visuals that do most of the marketing for you.         
+        </p>
+        <h3 class="learn-more">LEARN MORE</h3>
+      </div>
+      <div class="content two"></div>
+      <div class="content three"></div>
+      <div class="content four">
+        <h1>
+         Stand out to the right audience
+        </h1>
+        <p class="para-body">
+          We are a full-service creative agency specializing in helping brands grow fast. 
+          Engage your clients through compelling visuals that do most of the marketing for you.         
+        </p>
+        <h3 class="learn-more">LEARN MORE</h3>
+      </div>
+      <div class="content five">
+        <h1 class="heading">Graphic Design</h1>
+        <p class="para-body5-6">
+          Great design makes you memorable. We deliver artwork that underscores your brand message
+           and captures potential clients’ attention.
+        </p>
+      </div>
+      <div class="content six">
+        <h1 class="heading">Photography</h1>
+        <p class="para-body5-6">
+          Increase your credibility by getting the most stunning, high-quality photos that improve 
+          your business image.
+        </p>
+      </div>
+    </section>
+    <section class="test">
+      <span>CLIENT TESTIMONIALS</span>
+      <div class="testimony">
+        <div>
+          <img src="images/image-emily.jpg">
+          <p>
+            We put our trust in Sunnyside and they<br> delivered,
+            making sure our needs were met<br> and deadlines were always hit.
+          </p>
+          <h2>Emily R.</h2>
+          <span>Marketing Director</span>
+        </div>
+        <div>
+          <img src="images/image-thomas.jpg">
+          <p>
+            Sunnyside’s enthusiasm coupled with their <br>keen interest in our brand’s 
+            success made it<br> a satisfying and enjoyable experience.
+          </p>
+          <h2>Thomas S.</h2>
+          <span>Chief Operating Officer</span>
+        </div>
+        <div>
+          <img src="images/image-jennie.jpg">
+          <p>
+            Incredible end result! Our sales increased<br> over 4
+            when we worked with Sunnyside.<br> Highly recommended!
+          </p>
+          <h2>Jennie F.</h2>
+          <span>Business owner</span>
+        </div>
+      </div>
+    </section>
+    <section class="grid-images">
+      <div class="grid-image1"></div>
+      <div class="grid-image2"></div>
+      <div class="grid-image3"></div>
+      <div class="grid-image4"></div>
+    </section>
+    <section class="footer">
+      <h3>sunnyside</h3>
+      <ul class="footer-links">
+        <li>About</li>
+        <li>Services</li>
+        <li>Projects</li>
+      </ul>
+      <ul class="Social">
+        <li><img src="images/icon-facebook.svg"></li>
+        <li><img src="images/icon-instagram.svg"></li>
+        <li><img src="images/icon-twitter.svg"></li>
+        <li><img src="images/icon-pinterest.svg"></li>
+      </ul>
+    </section>
+ </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Musteey</a>.
+  </div>
+</body>
+<script>
+  function burgerNav(){
+    var burger = document.getElementById("menu");
+    burger.classList.toggle("open")
+  
+  }
+</script>
+</html>
